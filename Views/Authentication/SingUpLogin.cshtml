@@ -1,0 +1,69 @@
+﻿@model HealthChatBox.Models.UserModel.UserRequest
+
+@{
+    ViewData["Title"] = "Sign Up / Login";
+    Layout = "_Layout";
+}
+
+<style>
+    body {
+        background-image: url('https://drive.google.com/uc?id=1M4EJCl6owyzuzjm31vcU48zHkiZC6FFG');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .card {
+        width: 400px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-header {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+</style>
+
+<div class="card">
+    <h5 class="card-header">Sign Up / Login</h5>
+    <div class="card-body">
+        <form asp-action="SignUpLogin" method="post">
+            <div class="form-group">
+                <label for="inputEmail">Email address</label>
+                <input type="email" class="form-control" id="inputEmail" name="Email" placeholder="Enter email" required>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" name="Password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+        </form>
+
+        <hr>
+
+        <p class="text-center">Don't have an account? <a href="@Url.Action("Register", "Authentication")">Sign Up</a></p>
+    </div>
+</div>

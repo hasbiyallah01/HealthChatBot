@@ -1,0 +1,111 @@
+﻿@model HealthChatBox.Models.ProfileModel.ProfileRequest
+
+@{
+    ViewData["Title"] = "Complete Profile";
+}
+
+<h2>Complete Profile</h2>
+
+<form asp-action="CompleteProfile" method="post">
+    <input type="hidden" asp-for="UserId" value="@ViewBag.UserId" />
+    <div>
+        <label asp-for="Gender"></label>
+        <select asp-for="Gender" class="form-control">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+    <div>
+        <label asp-for="Height"></label>
+        <input asp-for="Height" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Weight"></label>
+        <input asp-for="Weight" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="DateOfBirth"></label>
+        <input asp-for="DateOfBirth" type="date" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Nationality"></label>
+        <input asp-for="Nationality" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="BodyFat"></label>
+        <input asp-for="BodyFat" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="DietType"></label>
+        <input asp-for="DietType" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="SnackPreference"></label>
+        <input asp-for="SnackPreference" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="NoOfMealPerDay"></label>
+        <input asp-for="NoOfMealPerDay" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Allergies"></label>
+        <ul>
+            @foreach (var allergy in Model.Allergies)
+            {
+                <li>@allergy</li>
+            }
+        </ul>
+    </div>
+
+    <div>
+        <label asp-for="UserGoals"></label>
+        <ul>
+            @foreach (var goal in Model.UserGoals)
+            {
+                <li>@goal</li>
+            }
+        </ul>
+    </div>
+        <button type="button" onclick="addGoal()">Add Goal</button>
+    </div>
+    <div>
+        <input type="submit" value="Complete Profile" class="btn btn-primary" />
+    </div>
+</form>
+
+<script>
+    function addAllergy() {
+        const allergiesList = document.getElementById('allergies-list');
+        const count = allergiesList.children.length;
+        const newItem = document.createElement('div');
+        newItem.className = 'allergy-item';
+        newItem.innerHTML = `<input type="text" name="Allergies[${count}]" value="" class="form-control" />
+                                 <button type="button" onclick="removeAllergy(this)">Remove</button>`;
+        allergiesList.appendChild(newItem);
+    }
+
+    function removeAllergy(button) {
+        const item = button.parentElement;
+        item.parentElement.removeChild(item);
+    }
+
+    function addGoal() {
+        const goalsList = document.getElementById('goals-list');
+        const count = goalsList.children.length;
+        const newItem = document.createElement('div');
+        newItem.className = 'goal-item';
+        newItem.innerHTML = `<input type="text" name="UserGoals[${count}]" value="" class="form-control" />
+                                 <button type="button" onclick="removeGoal(this)">Remove</button>`;
+        goalsList.appendChild(newItem);
+    }
+
+    function removeGoal(button) {
+        const item = button.parentElement;
+        item.parentElement.removeChild(item);
+    }
+</script>
+
+
+
+

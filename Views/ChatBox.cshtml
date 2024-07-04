@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "ChatBox";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatBox</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 20px;
+        }
+
+        .chat-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .message {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .user-message {
+            background-color: #e9ecef;
+            text-align: right;
+        }
+
+        .gpt-response {
+            background-color: #d4edda;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="chat-box">
+            <h2>Chatbox</h2>
+
+            <div id="chat-messages">
+                <!-- Messages will be dynamically loaded here -->
+            </div>
+
+            <form id="chat-form" asp-action="SendMessage" method="post">
+                <div class="form-group">
+                    <input type="text" id="query" name="query" class="form-control" placeholder="Type your message..." required />
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Send" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    @section Scripts {
+        <script>
+            document.getElementById('chat-form').addEventListener('submit', async function (e) {
+                e.preventDefault();
+                const query = document.getElementById('query').value;
+
+                // Send the query to the server
+                const response = await fetch('/UseChatGpt?query=' + encodeURIComponent(query));
+                const result = await response.text();
+
+                // Display the response in the chat messages
+                const chatMessages = document.getElementById('chat-messages');
+                chatMessages.innerHTML += '<div class="message user-message"><strong>You:</strong> ' + query + '</div>';
+                chatMessages.innerHTML += '<div class="message gpt-response"><strong>ChatGPT:</strong> ' + result + '</div>';
+
+                // Clear the input
+                document.getElementById('query').value = '';
+            });
+        </script>
+    }
+</body>
+</html>

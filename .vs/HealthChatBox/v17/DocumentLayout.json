@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|c:\\users\\hp\\source\\repos\\healthchatbox\\views\\authentication\\singuplogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|solutionrelative:views\\authentication\\singuplogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|c:\\users\\hp\\source\\repos\\healthchatbox\\views\\authentication\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|solutionrelative:views\\authentication\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|c:\\users\\hp\\source\\repos\\healthchatbox\\core\\application\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|solutionrelative:core\\application\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|c:\\users\\hp\\source\\repos\\healthchatbox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|c:\\users\\hp\\source\\repos\\healthchatbox\\infrastructure\\repositories\\chatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|solutionrelative:infrastructure\\repositories\\chatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|c:\\users\\hp\\source\\repos\\healthchatbox\\core\\application\\interfaces\\services\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|solutionrelative:core\\application\\interfaces\\services\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|c:\\users\\hp\\source\\repos\\healthchatbox\\core\\application\\interfaces\\repositories\\ichatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|solutionrelative:core\\application\\interfaces\\repositories\\ichatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|c:\\users\\hp\\source\\repos\\healthchatbox\\views\\chatbox\\usechatgpt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D1EB8E5-6FA3-4445-8AE0-6162156D3C19}|HealthChatBox.csproj|solutionrelative:views\\chatbox\\usechatgpt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Core\\Application\\Services\\ChatService.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Services\\ChatService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Core\\Application\\Services\\ChatService.cs",
+              "RelativeToolTip": "Core\\Application\\Services\\ChatService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T16:02:00.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IChatService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Core\\Application\\Interfaces\\Services\\IChatService.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Interfaces\\Services\\IChatService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Core\\Application\\Interfaces\\Services\\IChatService.cs",
+              "RelativeToolTip": "Core\\Application\\Interfaces\\Services\\IChatService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T15:53:07.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UseChatGpt.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Views\\ChatBox\\UseChatGpt.cshtml",
+              "RelativeDocumentMoniker": "Views\\ChatBox\\UseChatGpt.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Views\\ChatBox\\UseChatGpt.cshtml",
+              "RelativeToolTip": "Views\\ChatBox\\UseChatGpt.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T15:47:57.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SingUpLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Views\\Authentication\\SingUpLogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Authentication\\SingUpLogin.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Views\\Authentication\\SingUpLogin.cshtml",
+              "RelativeToolTip": "Views\\Authentication\\SingUpLogin.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T15:47:52.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Views\\Authentication\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Authentication\\Register.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Views\\Authentication\\Register.cshtml",
+              "RelativeToolTip": "Views\\Authentication\\Register.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T15:47:45.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T15:45:53.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Infrastructure\\Repositories\\ChatRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ChatRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Infrastructure\\Repositories\\ChatRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ChatRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T15:38:08.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IChatRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Core\\Application\\Interfaces\\Repositories\\IChatRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Interfaces\\Repositories\\IChatRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\HealthChatBox\\Core\\Application\\Interfaces\\Repositories\\IChatRepository.cs",
+              "RelativeToolTip": "Core\\Application\\Interfaces\\Repositories\\IChatRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T15:37:59.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
